@@ -1,0 +1,68 @@
+{
+  "machine": {
+    "id": "macbook-m4",
+    "name": "Marvin MacBook M4",
+    "tags": {
+      "site": "home",
+      "owner": "marvin"
+    }
+  },
+  "codexbar": {
+    "base_url": "http://127.0.0.1:8080",
+    "binary": "/opt/homebrew/bin/codexbar",
+    "manage_serve": true,
+    "serve_port": 8080,
+    "serve_refresh_interval_seconds": 60,
+    "serve_request_timeout_seconds": 30,
+    "http_timeout_seconds": 90,
+    "cli_timeout_seconds": 120,
+    "usage_provider": "",
+    "cost_provider": "both"
+  },
+  "mqtt": {
+    "broker": "mqtt://homeassistant.your-tailnet.ts.net:1883",
+    "client_id": "codexbar-mqtt-macbook-m4",
+    "username": "codexbar",
+    "password_file": "~/Library/Application Support/codexbar-mqtt/mqtt-password",
+    "topic_prefix": "codexbar/v1",
+    "qos": 1,
+    "keep_alive_seconds": 30,
+    "connect_timeout_seconds": 10,
+    "publish_timeout_seconds": 15,
+    "reconnect_min_seconds": 1,
+    "reconnect_max_seconds": 30,
+    "tls": {
+      "ca_file": "",
+      "cert_file": "",
+      "key_file": "",
+      "server_name": "",
+      "insecure_skip_verify": false
+    }
+  },
+  "poll": {
+    "heartbeat_seconds": 30,
+    "health_seconds": 30,
+    "usage_seconds": 60,
+    "cost_seconds": 300,
+    "all_providers_seconds": 1800,
+    "status_seconds": 900,
+    "status_provider": "all",
+    "active_account_probe_seconds": 60,
+    "active_account_probe_providers": ["codex", "claude"],
+    "account_catalogue_seconds": 1800,
+    "account_catalogue_providers": ["codex", "claude"],
+    "cost_horizon_seconds": 3600,
+    "cost_horizons_days": [1, 7, 30, 90],
+    "config_validate_seconds": 3600
+  },
+  "spool": {
+    "directory": "~/Library/Application Support/codexbar-mqtt/spool",
+    "max_messages": 10000,
+    "max_bytes": 104857600
+  },
+  "publish": {
+    "retain_snapshots": true,
+    "publish_events": true,
+    "include_stderr": false
+  }
+}
