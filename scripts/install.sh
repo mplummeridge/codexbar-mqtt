@@ -8,8 +8,8 @@ BIN_DIR="$SUPPORT_DIR/bin"
 LOG_DIR="$SUPPORT_DIR/logs"
 CONFIG="$SUPPORT_DIR/config.json"
 PASSWORD_FILE="$SUPPORT_DIR/mqtt-password"
-PLIST="$HOME/Library/LaunchAgents/dev.mmv3.codexbar-mqtt.plist"
-LABEL="dev.mmv3.codexbar-mqtt"
+PLIST="$HOME/Library/LaunchAgents/io.github.mplummeridge.codexbar-mqtt.plist"
+LABEL="io.github.mplummeridge.codexbar-mqtt"
 
 arch="$(uname -m)"
 case "$arch" in
@@ -71,7 +71,7 @@ sed \
   -e "s|__CONFIG__|$(escape_sed "$CONFIG")|g" \
   -e "s|__SUPPORT_DIR__|$(escape_sed "$SUPPORT_DIR")|g" \
   -e "s|__LOG_DIR__|$(escape_sed "$LOG_DIR")|g" \
-  "$ROOT_DIR/launchd/dev.mmv3.codexbar-mqtt.plist.template" > "$PLIST"
+  "$ROOT_DIR/launchd/io.github.mplummeridge.codexbar-mqtt.plist.template" > "$PLIST"
 chmod 600 "$PLIST"
 plutil -lint "$PLIST"
 

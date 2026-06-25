@@ -10,7 +10,7 @@ import (
 	"time"
 )
 
-const Schema = "dev.mmv3.codexbar-mqtt.observation.v1"
+const Schema = "io.github.mplummeridge.codexbar_mqtt.observation.v1"
 
 type Machine struct {
 	ID       string            `json:"id"`

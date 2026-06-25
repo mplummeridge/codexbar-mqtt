@@ -63,7 +63,7 @@ The installer creates:
 ~/Library/Application Support/codexbar-mqtt/bin/codexbar-mqtt
 ~/Library/Application Support/codexbar-mqtt/config.json
 ~/Library/Application Support/codexbar-mqtt/mqtt-password
-~/Library/LaunchAgents/dev.mmv3.codexbar-mqtt.plist
+~/Library/LaunchAgents/io.github.mplummeridge.codexbar-mqtt.plist
 ```
 
 Edit `config.json`, write the broker password without a trailing newline, then restart:
@@ -72,7 +72,7 @@ Edit `config.json`, write the broker password without a trailing newline, then r
 printf '%s' 'YOUR_MQTT_PASSWORD' > "$HOME/Library/Application Support/codexbar-mqtt/mqtt-password"
 chmod 600 "$HOME/Library/Application Support/codexbar-mqtt/mqtt-password"
 
-launchctl kickstart -k "gui/$(id -u)/dev.mmv3.codexbar-mqtt"
+launchctl kickstart -k "gui/$(id -u)/io.github.mplummeridge.codexbar-mqtt"
 ```
 
 Tailscale is used only for the outbound MQTT connection; CodexBar remains safely bound to local loopback.

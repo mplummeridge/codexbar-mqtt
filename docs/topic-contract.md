@@ -28,7 +28,7 @@ codexbar/discovery/v1/<fleet-id>/<machine>
 
 ```json
 {
-  "schema": "dev.mmv3.codexbar-mqtt.observation.v1",
+  "schema": "io.github.mplummeridge.codexbar_mqtt.observation.v1",
   "event_id": "...",
   "kind": "cli/active-account-probe",
   "snapshot_scope": "claude",

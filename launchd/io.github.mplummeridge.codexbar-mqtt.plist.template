@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
   <key>Label</key>
-  <string>dev.mmv3.codexbar-mqtt</string>
+  <string>io.github.mplummeridge.codexbar-mqtt</string>
 
   <key>ProgramArguments</key>
   <array>

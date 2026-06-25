@@ -1,7 +1,7 @@
 [
   {
     "provider": "codex",
-    "account": "marvin@mmv3.com",
+    "account": "marvin@example.com",
     "usage": {
       "extraRateWindows": [
         {
@@ -32,10 +32,10 @@
       },
       "identity": {
         "providerID": "codex",
-        "accountEmail": "marvin@mmv3.com",
+        "accountEmail": "marvin@example.com",
         "loginMethod": "pro"
       },
-      "accountEmail": "marvin@mmv3.com",
+      "accountEmail": "marvin@example.com",
       "loginMethod": "pro",
       "secondary": {
         "resetsAt": "2026-06-28T23:16:11Z",
@@ -72,7 +72,7 @@
         "usedPercent": 4
       },
       "creditEvents": [],
-      "signedInEmail": "marvin@mmv3.com",
+      "signedInEmail": "marvin@example.com",
       "usageBreakdown": [
         {
           "day": "2026-06-24",
@@ -777,11 +777,11 @@
       ],
       "identity": {
         "providerID": "claude",
-        "accountEmail": "marvin@mmv3.com",
+        "accountEmail": "marvin@example.com",
         "loginMethod": "Claude Max",
         "accountOrganization": "Marvin Plummeridge"
       },
-      "accountEmail": "marvin@mmv3.com",
+      "accountEmail": "marvin@example.com",
       "loginMethod": "Claude Max",
       "secondary": {
         "resetsAt": "2026-06-25T00:59:59Z",
@@ -974,14 +974,14 @@
     "version": "0.2.60",
     "usage": {
       "updatedAt": "2026-06-25T00:37:00Z",
-      "accountEmail": "marvin@mmv3.com",
+      "accountEmail": "marvin@example.com",
       "loginMethod": "SuperGrok",
       "secondary": null,
       "accountOrganization": "92c630f8-4d85-4493-8956-28482d7a8160",
       "tertiary": null,
       "identity": {
         "providerID": "grok",
-        "accountEmail": "marvin@mmv3.com",
+        "accountEmail": "marvin@example.com",
         "loginMethod": "SuperGrok",
         "accountOrganization": "92c630f8-4d85-4493-8956-28482d7a8160"
       },

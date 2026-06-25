@@ -9,7 +9,7 @@ import (
 
 const (
 	discoveryRoot   = "codexbar/discovery/v1"
-	discoverySchema = "dev.mmv3.codexbar-mqtt.discovery.v1"
+	discoverySchema = "io.github.mplummeridge.codexbar_mqtt.discovery.v1"
 	contractMajor   = 1
 )
 

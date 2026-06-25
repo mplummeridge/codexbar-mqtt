@@ -267,7 +267,7 @@ func (a *App) onMQTTConnect(ctx context.Context, manager *mqttclient.Manager) er
 
 func (a *App) metaPayload() ([]byte, error) {
 	payload := map[string]any{
-		"schema":   "dev.mmv3.codexbar-mqtt.node-meta.v1",
+		"schema":   "io.github.mplummeridge.codexbar_mqtt.node_meta.v1",
 		"machine":  a.machine,
 		"agent":    a.agent,
 		"platform": map[string]string{"os": runtime.GOOS, "arch": runtime.GOARCH},
@@ -369,7 +369,7 @@ func (a *App) publishHeartbeat(ctx context.Context) error {
 	}
 	a.mu.RUnlock()
 	payload, err := json.Marshal(map[string]any{
-		"schema":         "dev.mmv3.codexbar-mqtt.heartbeat.v1",
+		"schema":         "io.github.mplummeridge.codexbar_mqtt.heartbeat.v1",
 		"machine_id":     a.cfg.Machine.ID,
 		"observed_at":    time.Now().UTC(),
 		"uptime_seconds": int64(time.Since(a.startedAt).Seconds()),

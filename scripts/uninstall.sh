@@ -1,6 +1,6 @@
 #!/bin/bash
 set -euo pipefail
-LABEL="dev.mmv3.codexbar-mqtt"
+LABEL="io.github.mplummeridge.codexbar-mqtt"
 PLIST="$HOME/Library/LaunchAgents/$LABEL.plist"
 SUPPORT_DIR="$HOME/Library/Application Support/codexbar-mqtt"
 launchctl bootout "gui/$(id -u)/$LABEL" 2>/dev/null || true

@@ -69,7 +69,7 @@ func (a *App) Doctor(ctx context.Context) DoctorReport {
 		set("mqtt", DoctorCheck{OK: false, Error: err.Error()})
 	} else {
 		payload, _ := json.Marshal(map[string]any{
-			"schema":      "dev.mmv3.codexbar-mqtt.doctor.v1",
+			"schema":      "io.github.mplummeridge.codexbar_mqtt.doctor.v1",
 			"machine_id":  a.cfg.Machine.ID,
 			"observed_at": time.Now().UTC(),
 		})

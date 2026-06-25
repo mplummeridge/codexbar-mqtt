@@ -130,7 +130,7 @@ func runDoctor(args []string) error {
 func runSchema() error {
 	payload := map[string]any{
 		"observation_schema": envelope.Schema,
-		"discovery_schema":   "dev.mmv3.codexbar-mqtt.discovery.v1",
+		"discovery_schema":   "io.github.mplummeridge.codexbar_mqtt.discovery.v1",
 		"contract_major":     1,
 		"topic_layout": map[string]string{
 			"discovery":    "codexbar/discovery/v1/<fleet-id>/<machine-id>",
