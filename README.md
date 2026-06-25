@@ -2,14 +2,14 @@
 
 Native macOS collector for publishing [CodexBar](https://github.com/steipete/CodexBar) observations to MQTT for the `ha-codexbar-fleet` Home Assistant integration.
 
-This repository currently carries the 0.2.0 macOS distribution artifacts and the MQTT/topic contract. The Home Assistant integration consumes these topics and performs fleet-level, account-aware aggregation.
+This repository currently carries the MQTT/topic contract, LaunchAgent templates, installer scripts, and checksums for the generated `0.2.0` macOS archives. The generated tarballs still need to be uploaded as GitHub release assets because the current ChatGPT GitHub connector cannot upload local binary files or create releases by file path.
 
 ## Install
 
-Download the appropriate archive from `dist/` or from GitHub Releases once tagged:
+After uploading the generated release artifacts, download the appropriate archive from GitHub Releases:
 
 ```bash
-tar -xzf dist/codexbar-mqtt-0.2.0-darwin-arm64.tar.gz
+tar -xzf codexbar-mqtt-0.2.0-darwin-arm64.tar.gz
 cd codexbar-mqtt-0.2.0-darwin-arm64
 
 MQTT_BROKER='mqtt://homeassistant.local:1883' \
