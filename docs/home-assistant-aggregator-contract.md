@@ -49,20 +49,27 @@ missing/failed bracket                    -> unattributed
 negative delta                            -> ledger reset/backfill, establish new baseline
 ```
 
-### Active account timeline
+Store confidence alongside every attributed delta. Never silently merge ambiguous or unattributed usage into an account total.
 
-`cli/active-account-probe` observations are the strongest activity evidence. `serve/usage` is weaker when it includes multiple visible accounts. The HA side should record confidence per interval.
-
-## Agent discovery
-
-The 0.2 agent publishes a retained discovery beacon to:
+## Recommended HA diagnostics
 
 ```text
-codexbar/discovery/v1/<fleet-id>/<machine-id>
+fleet machines expected/online/stale
+per-machine last event age
+per-job last success/error
+spool depth and dropped count
+per-account quota and reset timestamps
+machine-local token/cost totals
+inferred account token/cost totals
+ambiguous/unattributed totals
+attribution coverage percentage
 ```
 
-The Home Assistant custom integration subscribes to `codexbar/discovery/v1/+/+`,
-validates the beacon's schema, contract major, topic-prefix hash and machine/topic identity,
+## Fleet bootstrap discovery
+
+A 0.2 agent publishes a retained beacon to
+`codexbar/discovery/v1/<fleet-id>/<machine-id>`. Home Assistant validates the
+beacon's schema, contract major, topic-prefix hash and machine/topic identity,
 then creates one pending config flow per fleet. This beacon is bootstrap
 metadata only; all aggregation evidence remains under the advertised data
 prefix.

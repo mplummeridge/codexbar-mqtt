@@ -1,0 +1,352 @@
+[
+  {
+    "sessionCostUSD": 27.812806,
+    "totals": {
+      "inputTokens": 201498811,
+      "outputTokens": 662580,
+      "totalTokens": 202161391,
+      "totalCost": 173.693096
+    },
+    "daily": [
+      {
+        "totalCost": 73.420623,
+        "totalTokens": 87323649,
+        "modelBreakdowns": [
+          {
+            "totalTokens": 87323649,
+            "cost": 73.420623,
+            "modelName": "gpt-5.5"
+          }
+        ],
+        "modelsUsed": [
+          "gpt-5.5"
+        ],
+        "inputTokens": 87051879,
+        "outputTokens": 271770,
+        "date": "2026-06-11"
+      },
+      {
+        "totalCost": 0.790728,
+        "totalTokens": 472006,
+        "modelBreakdowns": [
+          {
+            "totalTokens": 472006,
+            "cost": 0.790728,
+            "modelName": "gpt-5.5"
+          }
+        ],
+        "modelsUsed": [
+          "gpt-5.5"
+        ],
+        "inputTokens": 465612,
+        "outputTokens": 6394,
+        "date": "2026-06-12"
+      },
+      {
+        "totalCost": 1.393144,
+        "totalTokens": 1204787,
+        "modelBreakdowns": [
+          {
+            "totalTokens": 1204787,
+            "cost": 1.393144,
+            "modelName": "gpt-5.5"
+          }
+        ],
+        "modelsUsed": [
+          "gpt-5.5"
+        ],
+        "inputTokens": 1196114,
+        "outputTokens": 8673,
+        "date": "2026-06-13"
+      },
+      {
+        "totalCost": 42.646829,
+        "totalTokens": 55641053,
+        "modelBreakdowns": [
+          {
+            "totalTokens": 55479383,
+            "cost": 42.646829,
+            "modelName": "gpt-5.5"
+          },
+          {
+            "totalTokens": 161670,
+            "modelName": "codex-auto-review"
+          }
+        ],
+        "modelsUsed": [
+          "codex-auto-review",
+          "gpt-5.5"
+        ],
+        "inputTokens": 55512901,
+        "outputTokens": 128152,
+        "date": "2026-06-14"
+      },
+      {
+        "totalCost": 18.694242,
+        "totalTokens": 20483956,
+        "modelBreakdowns": [
+          {
+            "totalTokens": 20483956,
+            "cost": 18.694242,
+            "modelName": "gpt-5.5"
+          }
+        ],
+        "modelsUsed": [
+          "gpt-5.5"
+        ],
+        "inputTokens": 20395686,
+        "outputTokens": 88270,
+        "date": "2026-06-15"
+      },
+      {
+        "totalCost": 1.362515,
+        "totalTokens": 320160,
+        "modelBreakdowns": [
+          {
+            "totalTokens": 320160,
+            "cost": 1.362515,
+            "modelName": "gpt-5.5"
+          }
+        ],
+        "modelsUsed": [
+          "gpt-5.5"
+        ],
+        "inputTokens": 316450,
+        "outputTokens": 3710,
+        "date": "2026-06-19"
+      },
+      {
+        "totalCost": 7.572209,
+        "totalTokens": 6690629,
+        "modelBreakdowns": [
+          {
+            "totalTokens": 6690629,
+            "cost": 7.572209,
+            "modelName": "gpt-5.5"
+          }
+        ],
+        "modelsUsed": [
+          "gpt-5.5"
+        ],
+        "inputTokens": 6647917,
+        "outputTokens": 42712,
+        "date": "2026-06-20"
+      },
+      {
+        "totalCost": 27.812806,
+        "totalTokens": 30025151,
+        "modelBreakdowns": [
+          {
+            "totalTokens": 30025151,
+            "cost": 27.812806,
+            "modelName": "gpt-5.5"
+          }
+        ],
+        "modelsUsed": [
+          "gpt-5.5"
+        ],
+        "inputTokens": 29912252,
+        "outputTokens": 112899,
+        "date": "2026-06-22"
+      }
+    ],
+    "sessionTokens": 30025151,
+    "currencyCode": "USD",
+    "last30DaysTokens": 202161391,
+    "last30DaysCostUSD": 173.693096,
+    "historyDays": 30,
+    "source": "local",
+    "updatedAt": "2026-06-25T00:37:00Z",
+    "provider": "codex"
+  },
+  {
+    "sessionCostUSD": 1.6332679499999998,
+    "totals": {
+      "cacheReadTokens": 2608410626,
+      "inputTokens": 4546617,
+      "outputTokens": 7943065,
+      "totalTokens": 2683050329,
+      "cacheCreationTokens": 62150021,
+      "totalCost": 3018.6206579999975
+    },
+    "daily": [
+      {
+        "totalCost": 247.18631250000004,
+        "totalTokens": 170376334,
+        "cacheCreationTokens": 3497507,
+        "modelBreakdowns": [
+          {
+            "modelName": "claude-fable-5",
+            "cost": 246.66036750000004,
+            "totalTokens": 170317304
+          },
+          {
+            "modelName": "claude-opus-4-8",
+            "cost": 0.525945,
+            "totalTokens": 59030
+          }
+        ],
+        "inputTokens": 83663,
+        "modelsUsed": [
+          "claude-fable-5",
+          "claude-opus-4-8"
+        ],
+        "outputTokens": 316284,
+        "date": "2026-06-10",
+        "cacheReadTokens": 166478880
+      },
+      {
+        "totalCost": 1472.457588699998,
+        "totalTokens": 1162840536,
+        "cacheCreationTokens": 28071100,
+        "modelBreakdowns": [
+          {
+            "modelName": "claude-fable-5",
+            "cost": 1252.144116499998,
+            "totalTokens": 883929858
+          },
+          {
+            "modelName": "claude-opus-4-8",
+            "cost": 212.23402324999998,
+            "totalTokens": 258735776
+          },
+          {
+            "modelName": "claude-sonnet-4-6",
+            "cost": 8.079448950000002,
+            "totalTokens": 20174902
+          }
+        ],
+        "inputTokens": 1852431,
+        "modelsUsed": [
+          "claude-fable-5",
+          "claude-opus-4-8",
+          "claude-sonnet-4-6"
+        ],
+        "outputTokens": 2535068,
+        "date": "2026-06-11",
+        "cacheReadTokens": 1130381937
+      },
+      {
+        "totalCost": 565.9559208499996,
+        "totalTokens": 396977227,
+        "cacheCreationTokens": 10135223,
+        "modelBreakdowns": [
+          {
+            "modelName": "claude-fable-5",
+            "cost": 512.8936339999997,
+            "totalTokens": 319352607
+          },
+          {
+            "modelName": "claude-opus-4-8",
+            "cost": 49.24427249999999,
+            "totalTokens": 70558500
+          },
+          {
+            "modelName": "claude-sonnet-4-6",
+            "cost": 3.8180143500000003,
+            "totalTokens": 7066120
+          }
+        ],
+        "inputTokens": 348310,
+        "modelsUsed": [
+          "claude-fable-5",
+          "claude-opus-4-8",
+          "claude-sonnet-4-6"
+        ],
+        "outputTokens": 1165768,
+        "date": "2026-06-12",
+        "cacheReadTokens": 385327926
+      },
+      {
+        "totalCost": 518.1723344999997,
+        "totalTokens": 661724295,
+        "cacheCreationTokens": 15174312,
+        "modelBreakdowns": [
+          {
+            "modelName": "claude-opus-4-8",
+            "cost": 502.9602922499997,
+            "totalTokens": 622302446
+          },
+          {
+            "modelName": "claude-sonnet-4-6",
+            "cost": 15.212042250000007,
+            "totalTokens": 39421849
+          }
+        ],
+        "inputTokens": 1699954,
+        "modelsUsed": [
+          "claude-opus-4-8",
+          "claude-sonnet-4-6"
+        ],
+        "outputTokens": 2850602,
+        "date": "2026-06-14",
+        "cacheReadTokens": 641999427
+      },
+      {
+        "totalCost": 212.84324300000026,
+        "totalTokens": 289834986,
+        "cacheCreationTokens": 4948330,
+        "modelBreakdowns": [
+          {
+            "modelName": "claude-opus-4-8",
+            "cost": 212.84324300000026,
+            "totalTokens": 289834986
+          }
+        ],
+        "inputTokens": 555562,
+        "modelsUsed": [
+          "claude-opus-4-8"
+        ],
+        "outputTokens": 1055208,
+        "date": "2026-06-15",
+        "cacheReadTokens": 283275886
+      },
+      {
+        "totalCost": 0.37199050000000006,
+        "totalTokens": 184887,
+        "cacheCreationTokens": 16474,
+        "modelBreakdowns": [
+          {
+            "modelName": "claude-opus-4-8",
+            "cost": 0.37199050000000006,
+            "totalTokens": 184887
+          }
+        ],
+        "inputTokens": 6676,
+        "modelsUsed": [
+          "claude-opus-4-8"
+        ],
+        "outputTokens": 3796,
+        "date": "2026-06-18",
+        "cacheReadTokens": 157941
+      },
+      {
+        "totalCost": 1.6332679499999998,
+        "totalTokens": 1112064,
+        "cacheCreationTokens": 307075,
+        "modelBreakdowns": [
+          {
+            "modelName": "claude-sonnet-4-6",
+            "cost": 1.6332679499999998,
+            "totalTokens": 1112064
+          }
+        ],
+        "inputTokens": 21,
+        "modelsUsed": [
+          "claude-sonnet-4-6"
+        ],
+        "outputTokens": 16339,
+        "date": "2026-06-23",
+        "cacheReadTokens": 788629
+      }
+    ],
+    "sessionTokens": 1112064,
+    "currencyCode": "USD",
+    "last30DaysTokens": 2683050329,
+    "last30DaysCostUSD": 3018.6206579999975,
+    "historyDays": 30,
+    "source": "local",
+    "updatedAt": "2026-06-25T00:37:00Z",
+    "provider": "claude"
+  }
+]

@@ -1,0 +1,995 @@
+[
+  {
+    "provider": "codex",
+    "account": "marvin@mmv3.com",
+    "usage": {
+      "extraRateWindows": [
+        {
+          "title": "Codex Spark 5-hour",
+          "window": {
+            "windowMinutes": 300,
+            "resetDescription": "6:36 AM",
+            "usedPercent": 0,
+            "resetsAt": "2026-06-25T05:36:54Z"
+          },
+          "id": "codex-spark"
+        },
+        {
+          "title": "Codex Spark Weekly",
+          "window": {
+            "windowMinutes": 10080,
+            "resetDescription": "Jun 28 at 6:12 PM",
+            "usedPercent": 0,
+            "resetsAt": "2026-06-28T17:12:46Z"
+          },
+          "id": "codex-spark-weekly"
+        }
+      ],
+      "codexResetCredits": {
+        "updatedAt": "2026-06-25T00:36:54Z",
+        "availableCount": 0,
+        "credits": []
+      },
+      "identity": {
+        "providerID": "codex",
+        "accountEmail": "marvin@mmv3.com",
+        "loginMethod": "pro"
+      },
+      "accountEmail": "marvin@mmv3.com",
+      "loginMethod": "pro",
+      "secondary": {
+        "resetsAt": "2026-06-28T23:16:11Z",
+        "usedPercent": 50,
+        "resetDescription": "Jun 29 at 12:16 AM",
+        "windowMinutes": 10080
+      },
+      "dataConfidence": "exact",
+      "tertiary": null,
+      "updatedAt": "2026-06-25T00:36:54Z",
+      "primary": {
+        "resetsAt": "2026-06-25T02:56:30Z",
+        "usedPercent": 14,
+        "resetDescription": "3:56 AM",
+        "windowMinutes": 300
+      }
+    },
+    "credits": {
+      "remaining": 0,
+      "events": [],
+      "updatedAt": "2026-06-25T00:36:54Z"
+    },
+    "source": "oauth",
+    "openaiDashboard": {
+      "primaryLimit": {
+        "resetDescription": "Resets 9:14 PM",
+        "usedPercent": 4,
+        "windowMinutes": 300
+      },
+      "accountPlan": "Pro 20x",
+      "updatedAt": "2026-06-24T18:40:01Z",
+      "dailyBreakdown": [],
+      "codeReviewLimit": {
+        "usedPercent": 4
+      },
+      "creditEvents": [],
+      "signedInEmail": "marvin@mmv3.com",
+      "usageBreakdown": [
+        {
+          "day": "2026-06-24",
+          "services": [
+            {
+              "service": "GitHub Code Review",
+              "creditsUsed": 32.34830147895232
+            },
+            {
+              "service": "CLI",
+              "creditsUsed": 10.316955648559032
+            },
+            {
+              "service": "Unknown",
+              "creditsUsed": 8.409295865107403
+            },
+            {
+              "service": "Desktop App",
+              "creditsUsed": 8.174921526174213
+            },
+            {
+              "service": "Web",
+              "creditsUsed": 4.166073719082811
+            },
+            {
+              "service": "Exec",
+              "creditsUsed": 1.7052355694199206
+            }
+          ],
+          "totalCreditsUsed": 65.1207838072957
+        },
+        {
+          "day": "2026-06-23",
+          "services": [
+            {
+              "service": "GitHub Code Review",
+              "creditsUsed": 170.8496069283068
+            },
+            {
+              "service": "Desktop App",
+              "creditsUsed": 68.62026875059037
+            },
+            {
+              "service": "Unknown",
+              "creditsUsed": 68.24180973140042
+            },
+            {
+              "service": "Exec",
+              "creditsUsed": 11.322752700262724
+            },
+            {
+              "service": "CLI",
+              "creditsUsed": 2.700023325996231
+            },
+            {
+              "service": "Web",
+              "creditsUsed": 1.542418237241481
+            }
+          ],
+          "totalCreditsUsed": 323.276879673798
+        },
+        {
+          "day": "2026-06-22",
+          "services": [
+            {
+              "service": "Desktop App",
+              "creditsUsed": 201.23864761463426
+            },
+            {
+              "service": "Unknown",
+              "creditsUsed": 163.18313144270735
+            },
+            {
+              "service": "CLI",
+              "creditsUsed": 43.69132270656986
+            },
+            {
+              "service": "GitHub Code Review",
+              "creditsUsed": 12.4728400165923
+            },
+            {
+              "service": "Web",
+              "creditsUsed": 1.5759087616188325
+            },
+            {
+              "service": "Exec",
+              "creditsUsed": 1.0258548773295186
+            }
+          ],
+          "totalCreditsUsed": 423.1877054194521
+        },
+        {
+          "day": "2026-06-21",
+          "services": [
+            {
+              "service": "Desktop App",
+              "creditsUsed": 294.348135688148
+            },
+            {
+              "service": "Unknown",
+              "creditsUsed": 120.61524283998574
+            },
+            {
+              "service": "GitHub Code Review",
+              "creditsUsed": 44.27481364253444
+            },
+            {
+              "service": "Exec",
+              "creditsUsed": 18.972021248818553
+            },
+            {
+              "service": "Web",
+              "creditsUsed": 8.454303415705628
+            },
+            {
+              "service": "CLI",
+              "creditsUsed": 7.795291187816144
+            }
+          ],
+          "totalCreditsUsed": 494.4598080230085
+        },
+        {
+          "day": "2026-06-20",
+          "services": [
+            {
+              "service": "Desktop App",
+              "creditsUsed": 139.9896890390789
+            },
+            {
+              "service": "Unknown",
+              "creditsUsed": 123.98203857340718
+            },
+            {
+              "service": "CLI",
+              "creditsUsed": 13.414409010804853
+            },
+            {
+              "service": "Exec",
+              "creditsUsed": 11.781964547671631
+            },
+            {
+              "service": "GitHub Code Review",
+              "creditsUsed": 8.626796266209617
+            },
+            {
+              "service": "Web",
+              "creditsUsed": 4.288885237834524
+            }
+          ],
+          "totalCreditsUsed": 302.0837826750067
+        },
+        {
+          "day": "2026-06-19",
+          "services": [
+            {
+              "service": "Desktop App",
+              "creditsUsed": 266.71708147606745
+            },
+            {
+              "service": "Unknown",
+              "creditsUsed": 157.59507684682848
+            },
+            {
+              "service": "GitHub Code Review",
+              "creditsUsed": 36.50725620885415
+            },
+            {
+              "service": "CLI",
+              "creditsUsed": 32.511950196692844
+            },
+            {
+              "service": "Web",
+              "creditsUsed": 5.222912430280058
+            },
+            {
+              "service": "Exec",
+              "creditsUsed": 2.046949868363361
+            }
+          ],
+          "totalCreditsUsed": 500.60122702708634
+        },
+        {
+          "day": "2026-06-18",
+          "services": [
+            {
+              "service": "Desktop App",
+              "creditsUsed": 237.734841860875
+            },
+            {
+              "service": "CLI",
+              "creditsUsed": 50.941403103815745
+            },
+            {
+              "service": "Unknown",
+              "creditsUsed": 44.842937316424745
+            },
+            {
+              "service": "Web",
+              "creditsUsed": 23.302710442853346
+            },
+            {
+              "service": "GitHub Code Review",
+              "creditsUsed": 19.216801839634282
+            }
+          ],
+          "totalCreditsUsed": 376.03869456360314
+        },
+        {
+          "day": "2026-06-17",
+          "services": [
+            {
+              "service": "CLI",
+              "creditsUsed": 233.78252527363506
+            },
+            {
+              "service": "Unknown",
+              "creditsUsed": 140.73350243007923
+            },
+            {
+              "service": "Desktop App",
+              "creditsUsed": 59.562900836578194
+            },
+            {
+              "service": "GitHub Code Review",
+              "creditsUsed": 6.9160291804381195
+            },
+            {
+              "service": "Web",
+              "creditsUsed": 0.6318521795877298
+            }
+          ],
+          "totalCreditsUsed": 441.6268099003183
+        },
+        {
+          "day": "2026-06-16",
+          "services": [
+            {
+              "service": "CLI",
+              "creditsUsed": 294.03510530356596
+            },
+            {
+              "service": "Desktop App",
+              "creditsUsed": 257.43535900838737
+            },
+            {
+              "service": "GitHub Code Review",
+              "creditsUsed": 28.71431592873111
+            },
+            {
+              "service": "Unknown",
+              "creditsUsed": 15.379126614803624
+            },
+            {
+              "service": "Exec",
+              "creditsUsed": 7.133133489412915
+            },
+            {
+              "service": "Web",
+              "creditsUsed": 1.7805326987345194
+            }
+          ],
+          "totalCreditsUsed": 604.4775730436355
+        },
+        {
+          "day": "2026-06-15",
+          "services": [
+            {
+              "service": "Vscode",
+              "creditsUsed": 327.55941480841597
+            },
+            {
+              "service": "Desktop App",
+              "creditsUsed": 125.20997080736389
+            },
+            {
+              "service": "CLI",
+              "creditsUsed": 83.81449087245795
+            },
+            {
+              "service": "Unknown",
+              "creditsUsed": 58.749518421873226
+            },
+            {
+              "service": "Exec",
+              "creditsUsed": 27.147428235505764
+            },
+            {
+              "service": "GitHub Code Review",
+              "creditsUsed": 3.9542379810424926
+            },
+            {
+              "service": "Web",
+              "creditsUsed": 2.116108602710401
+            }
+          ],
+          "totalCreditsUsed": 628.5511697293697
+        },
+        {
+          "day": "2026-06-14",
+          "services": [
+            {
+              "service": "Unknown",
+              "creditsUsed": 64.8026828607606
+            },
+            {
+              "service": "Desktop App",
+              "creditsUsed": 61.84458039842749
+            },
+            {
+              "service": "GitHub Code Review",
+              "creditsUsed": 27.98718062794975
+            },
+            {
+              "service": "CLI",
+              "creditsUsed": 18.412719368244062
+            },
+            {
+              "service": "Exec",
+              "creditsUsed": 8.428216746873577
+            },
+            {
+              "service": "Web",
+              "creditsUsed": 4.660754877504388
+            }
+          ],
+          "totalCreditsUsed": 186.13613487975988
+        },
+        {
+          "day": "2026-06-13",
+          "services": [
+            {
+              "service": "Unknown",
+              "creditsUsed": 9.35795923643696
+            },
+            {
+              "service": "CLI",
+              "creditsUsed": 0.44280864311333357
+            }
+          ],
+          "totalCreditsUsed": 9.800767879550293
+        },
+        {
+          "day": "2026-06-12",
+          "services": [
+            {
+              "service": "Desktop App",
+              "creditsUsed": 125.33465484542344
+            },
+            {
+              "service": "Unknown",
+              "creditsUsed": 48.67496214958834
+            },
+            {
+              "service": "Web",
+              "creditsUsed": 9.43885155774004
+            },
+            {
+              "service": "CLI",
+              "creditsUsed": 0.6100279642472275
+            }
+          ],
+          "totalCreditsUsed": 184.05849651699904
+        },
+        {
+          "day": "2026-06-11",
+          "services": [
+            {
+              "service": "Desktop App",
+              "creditsUsed": 375.45149489790936
+            },
+            {
+              "service": "CLI",
+              "creditsUsed": 171.67967903469872
+            },
+            {
+              "service": "Unknown",
+              "creditsUsed": 115.69990821029799
+            },
+            {
+              "service": "Web",
+              "creditsUsed": 23.581863587459498
+            },
+            {
+              "service": "Exec",
+              "creditsUsed": 13.490337651989318
+            },
+            {
+              "service": "GitHub Code Review",
+              "creditsUsed": 0.09671661764514058
+            }
+          ],
+          "totalCreditsUsed": 700
+        },
+        {
+          "day": "2026-06-10",
+          "services": [
+            {
+              "service": "Unknown",
+              "creditsUsed": 16.85327958965487
+            },
+            {
+              "service": "Desktop App",
+              "creditsUsed": 1.048233314394917
+            },
+            {
+              "service": "Web",
+              "creditsUsed": 0.7758947343316044
+            },
+            {
+              "service": "CLI",
+              "creditsUsed": 0.41164932512345864
+            },
+            {
+              "service": "GitHub Code Review",
+              "creditsUsed": 0.24915312581601126
+            }
+          ],
+          "totalCreditsUsed": 19.338210089320864
+        },
+        {
+          "day": "2026-06-09",
+          "services": [
+            {
+              "service": "Unknown",
+              "creditsUsed": 12.527930991010408
+            },
+            {
+              "service": "CLI",
+              "creditsUsed": 2.3701525683781903
+            }
+          ],
+          "totalCreditsUsed": 14.898083559388597
+        },
+        {
+          "day": "2026-06-08",
+          "services": [
+            {
+              "service": "CLI",
+              "creditsUsed": 5.37627059296916
+            },
+            {
+              "service": "Unknown",
+              "creditsUsed": 1.5713597147864604
+            }
+          ],
+          "totalCreditsUsed": 6.94763030775562
+        },
+        {
+          "day": "2026-06-07",
+          "services": [
+            {
+              "service": "CLI",
+              "creditsUsed": 5.731903263076078
+            },
+            {
+              "service": "Unknown",
+              "creditsUsed": 0.262277087785592
+            }
+          ],
+          "totalCreditsUsed": 5.9941803508616704
+        },
+        {
+          "day": "2026-06-06",
+          "services": [
+            {
+              "service": "CLI",
+              "creditsUsed": 6.7857678982318355
+            },
+            {
+              "service": "Unknown",
+              "creditsUsed": 1.3692430720924262
+            }
+          ],
+          "totalCreditsUsed": 8.155010970324263
+        },
+        {
+          "day": "2026-06-05",
+          "services": [
+            {
+              "service": "Unknown",
+              "creditsUsed": 13.331648588287212
+            },
+            {
+              "service": "CLI",
+              "creditsUsed": 5.599985990512285
+            }
+          ],
+          "totalCreditsUsed": 18.931634578799496
+        },
+        {
+          "day": "2026-06-04",
+          "services": [
+            {
+              "service": "Unknown",
+              "creditsUsed": 47.673111504080204
+            },
+            {
+              "service": "CLI",
+              "creditsUsed": 10.380167968394547
+            },
+            {
+              "service": "Desktop App",
+              "creditsUsed": 5.114981717164539
+            }
+          ],
+          "totalCreditsUsed": 63.16826118963929
+        },
+        {
+          "day": "2026-06-03",
+          "services": [
+            {
+              "service": "Unknown",
+              "creditsUsed": 38.318445283401516
+            },
+            {
+              "service": "CLI",
+              "creditsUsed": 5.2578552041667095
+            }
+          ],
+          "totalCreditsUsed": 43.576300487568226
+        },
+        {
+          "day": "2026-06-02",
+          "services": [
+            {
+              "service": "Unknown",
+              "creditsUsed": 34.4421192648165
+            },
+            {
+              "service": "CLI",
+              "creditsUsed": 6.034136124349442
+            }
+          ],
+          "totalCreditsUsed": 40.47625538916594
+        },
+        {
+          "day": "2026-06-01",
+          "services": [
+            {
+              "service": "Unknown",
+              "creditsUsed": 47.983558310615656
+            },
+            {
+              "service": "CLI",
+              "creditsUsed": 10.965813884978113
+            },
+            {
+              "service": "Desktop App",
+              "creditsUsed": 5.475431104867693
+            }
+          ],
+          "totalCreditsUsed": 64.42480330046146
+        },
+        {
+          "day": "2026-05-31",
+          "services": [
+            {
+              "service": "Desktop App",
+              "creditsUsed": 128.40613253151147
+            },
+            {
+              "service": "Unknown",
+              "creditsUsed": 77.20592349912249
+            },
+            {
+              "service": "CLI",
+              "creditsUsed": 17.356832247590354
+            },
+            {
+              "service": "Web",
+              "creditsUsed": 1.0815543196057924
+            },
+            {
+              "service": "GitHub Code Review",
+              "creditsUsed": 0.42011108621704485
+            }
+          ],
+          "totalCreditsUsed": 224.47055368404716
+        },
+        {
+          "day": "2026-05-30",
+          "services": [
+            {
+              "service": "Desktop App",
+              "creditsUsed": 231.62701672959386
+            },
+            {
+              "service": "Unknown",
+              "creditsUsed": 34.83788729277818
+            },
+            {
+              "service": "CLI",
+              "creditsUsed": 11.958276559046837
+            }
+          ],
+          "totalCreditsUsed": 278.4231805814189
+        },
+        {
+          "day": "2026-05-29",
+          "services": [
+            {
+              "service": "Unknown",
+              "creditsUsed": 32.7557193937816
+            },
+            {
+              "service": "CLI",
+              "creditsUsed": 6.117424493121177
+            }
+          ],
+          "totalCreditsUsed": 38.873143886902774
+        },
+        {
+          "day": "2026-05-28",
+          "services": [
+            {
+              "service": "Unknown",
+              "creditsUsed": 30.076633719075097
+            },
+            {
+              "service": "CLI",
+              "creditsUsed": 5.146641943101453
+            }
+          ],
+          "totalCreditsUsed": 35.22327566217655
+        },
+        {
+          "day": "2026-05-27",
+          "services": [
+            {
+              "service": "Unknown",
+              "creditsUsed": 46.2946066463779
+            },
+            {
+              "service": "CLI",
+              "creditsUsed": 3.935396349486649
+            },
+            {
+              "service": "Desktop App",
+              "creditsUsed": 0.28009935821362636
+            }
+          ],
+          "totalCreditsUsed": 50.51010235407818
+        },
+        {
+          "day": "2026-05-26",
+          "services": [
+            {
+              "service": "Unknown",
+              "creditsUsed": 24.786771707035612
+            }
+          ],
+          "totalCreditsUsed": 24.786771707035612
+        }
+      ],
+      "secondaryLimit": {
+        "resetsAt": "2026-06-28T23:16:01Z",
+        "usedPercent": 47,
+        "resetDescription": "Resets Jun 29, 2026 12:16 AM",
+        "windowMinutes": 10080
+      },
+      "creditsRemaining": 0
+    }
+  },
+  {
+    "source": "api",
+    "provider": "zai",
+    "account": "wilde",
+    "usage": {
+      "updatedAt": "2026-06-25T00:36:55Z",
+      "accountEmail": "wilde",
+      "primary": {
+        "windowMinutes": 300,
+        "resetDescription": "5 hours window",
+        "usedPercent": 4,
+        "resetsAt": "2026-06-25T01:01:48Z"
+      },
+      "secondary": {
+        "resetDescription": "Monthly",
+        "usedPercent": 0.8,
+        "resetsAt": "2026-07-11T16:03:21Z"
+      },
+      "identity": {
+        "providerID": "zai",
+        "accountEmail": "wilde"
+      },
+      "tertiary": null
+    }
+  },
+  {
+    "provider": "claude",
+    "version": "2.1.191",
+    "usage": {
+      "extraRateWindows": [
+        {
+          "title": "Daily Routines",
+          "window": {
+            "windowMinutes": 10080,
+            "usedPercent": 0
+          },
+          "id": "claude-routines"
+        }
+      ],
+      "identity": {
+        "providerID": "claude",
+        "accountEmail": "marvin@mmv3.com",
+        "loginMethod": "Claude Max",
+        "accountOrganization": "Marvin Plummeridge"
+      },
+      "accountEmail": "marvin@mmv3.com",
+      "loginMethod": "Claude Max",
+      "secondary": {
+        "resetsAt": "2026-06-25T00:59:59Z",
+        "usedPercent": 74,
+        "resetDescription": "Jun 25 at 1:59AM",
+        "windowMinutes": 10080
+      },
+      "providerCost": {
+        "updatedAt": "2026-06-25T00:36:55Z",
+        "period": "Monthly cap",
+        "used": 203.92,
+        "limit": 203,
+        "currencyCode": "GBP"
+      },
+      "accountOrganization": "Marvin Plummeridge",
+      "tertiary": null,
+      "updatedAt": "2026-06-25T00:36:56Z",
+      "primary": {
+        "resetsAt": "2026-06-25T04:39:59Z",
+        "usedPercent": 2,
+        "resetDescription": "Jun 25 at 5:39AM",
+        "windowMinutes": 300
+      }
+    },
+    "source": "web"
+  },
+  {
+    "source": "cli",
+    "provider": "antigravity",
+    "usage": {
+      "extraRateWindows": [
+        {
+          "usageKnown": false,
+          "title": "Gemini Models Five Hour Limit",
+          "window": {
+            "resetDescription": "You have hit your weekly limit, the 5-hour limit does not currently apply. Your weekly limit will fully refresh in 1 day, 18 hours.",
+            "windowMinutes": 300,
+            "usedPercent": 0,
+            "resetsAt": "2026-06-25T05:36:57Z"
+          },
+          "id": "antigravity-quota-summary-gemini-5h"
+        },
+        {
+          "title": "Gemini Models Weekly Limit",
+          "window": {
+            "resetDescription": "You have hit your weekly limit, it refreshes in 1 day, 18 hours. If on a supported paid plan, you can use AI credits in the interim or upgrade to a higher tier.",
+            "windowMinutes": 10080,
+            "usedPercent": 100,
+            "resetsAt": "2026-06-26T19:09:04Z"
+          },
+          "id": "antigravity-quota-summary-gemini-weekly"
+        },
+        {
+          "title": "Claude and GPT models Five Hour Limit",
+          "window": {
+            "windowMinutes": 300,
+            "usedPercent": 0,
+            "resetsAt": "2026-06-25T05:36:57Z"
+          },
+          "id": "antigravity-quota-summary-3p-5h"
+        },
+        {
+          "title": "Claude and GPT models Weekly Limit",
+          "window": {
+            "windowMinutes": 10080,
+            "usedPercent": 0,
+            "resetsAt": "2026-07-02T00:36:57Z"
+          },
+          "id": "antigravity-quota-summary-3p-weekly"
+        }
+      ],
+      "identity": {
+        "providerID": "antigravity",
+        "accountEmail": "fatlip90@gmail.com",
+        "loginMethod": "Google AI Pro"
+      },
+      "accountEmail": "fatlip90@gmail.com",
+      "loginMethod": "Google AI Pro",
+      "secondary": {
+        "windowMinutes": 300,
+        "usedPercent": 0,
+        "resetsAt": "2026-06-25T05:36:57Z"
+      },
+      "tertiary": null,
+      "updatedAt": "2026-06-25T00:36:57Z",
+      "primary": {
+        "windowMinutes": 10080,
+        "resetDescription": "You have hit your weekly limit, it refreshes in 1 day, 18 hours. If on a supported paid plan, you can use AI credits in the interim or upgrade to a higher tier.",
+        "usedPercent": 100,
+        "resetsAt": "2026-06-26T19:09:04Z"
+      }
+    }
+  },
+  {
+    "provider": "copilot",
+    "account": "mplummeridge (Business)",
+    "usage": {
+      "updatedAt": "2026-06-25T00:36:57Z",
+      "accountEmail": "mplummeridge (Business)",
+      "loginMethod": "Business",
+      "secondary": {
+        "usedPercent": 0
+      },
+      "tertiary": null,
+      "identity": {
+        "providerID": "copilot",
+        "accountEmail": "mplummeridge (Business)",
+        "loginMethod": "Business"
+      },
+      "primary": {
+        "usedPercent": 0
+      }
+    },
+    "source": "api"
+  },
+  {
+    "source": "api",
+    "provider": "minimax",
+    "usage": {
+      "updatedAt": "2026-06-25T00:36:57Z",
+      "primary": {
+        "windowMinutes": 300,
+        "resetDescription": "Resets in 4 hours",
+        "usedPercent": 0,
+        "resetsAt": "2026-06-25T05:00:00Z"
+      },
+      "secondary": {
+        "windowMinutes": 10080,
+        "resetDescription": "Resets in 3 days",
+        "usedPercent": 33,
+        "resetsAt": "2026-06-29T00:00:00Z"
+      },
+      "identity": {
+        "providerID": "minimax"
+      },
+      "tertiary": {
+        "windowMinutes": 1440,
+        "resetDescription": "Resets in 23 hours",
+        "usedPercent": 0,
+        "resetsAt": "2026-06-26T00:00:00Z"
+      }
+    }
+  },
+  {
+    "provider": "kimi",
+    "usage": {
+      "identity": {
+        "providerID": "kimi"
+      },
+      "secondary": {
+        "resetsAt": "2026-06-25T03:24:23Z",
+        "usedPercent": 0,
+        "resetDescription": "Rate: 0/100 per 5 hours",
+        "windowMinutes": 300
+      },
+      "primary": {
+        "resetsAt": "2026-06-30T09:24:23Z",
+        "usedPercent": 23,
+        "resetDescription": "23/100 requests"
+      },
+      "tertiary": null,
+      "updatedAt": "2026-06-25T00:36:58Z"
+    },
+    "source": "web"
+  },
+  {
+    "source": "web",
+    "provider": "opencodego",
+    "usage": {
+      "updatedAt": "2026-06-25T00:36:58Z",
+      "primary": {
+        "windowMinutes": 300,
+        "usedPercent": 0,
+        "resetsAt": "2026-06-25T05:36:58Z"
+      },
+      "secondary": {
+        "windowMinutes": 10080,
+        "usedPercent": 0,
+        "resetsAt": "2026-06-29T00:00:00Z"
+      },
+      "tertiary": {
+        "windowMinutes": 43200,
+        "usedPercent": 0,
+        "resetsAt": "2026-07-23T00:18:22Z"
+      }
+    }
+  },
+  {
+    "provider": "grok",
+    "version": "0.2.60",
+    "usage": {
+      "updatedAt": "2026-06-25T00:37:00Z",
+      "accountEmail": "marvin@mmv3.com",
+      "loginMethod": "SuperGrok",
+      "secondary": null,
+      "accountOrganization": "92c630f8-4d85-4493-8956-28482d7a8160",
+      "tertiary": null,
+      "identity": {
+        "providerID": "grok",
+        "accountEmail": "marvin@mmv3.com",
+        "loginMethod": "SuperGrok",
+        "accountOrganization": "92c630f8-4d85-4493-8956-28482d7a8160"
+      },
+      "primary": {
+        "resetsAt": "2026-07-01T00:00:00Z",
+        "usedPercent": 8
+      }
+    },
+    "source": "grok-web"
+  }
+]

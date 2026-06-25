@@ -1,3 +1,6 @@
 .DS_Store
+bin/
+dist/
+coverage.out
 *.log
-/tmp/
+config.local.json
